@@ -6,5 +6,5 @@ Java implemetation of Risk.
 To Do
 -------
 
-Finish card usage
-Add network play
+1. Finish card usage
+2. Add network play
