@@ -3,7 +3,7 @@ Java Risk
 
 Java implemetation of Risk. 
 
-ToDo
+To Do
 -------
 
 Finish card usage
