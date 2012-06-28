@@ -1,0 +1,104 @@
+value name territories that belong
+
+{continents}
+5 North_America 1 2 3 4 5 6 7 8 9 ;
+2 South_America 10 11 12 13 ;
+5 Europe 14 15 16 17 18 19 20 ;
+3 Africa 21 22 23 24 25 26 ;
+7 Asia 27 28 29 30 31 32 33 34 35 36 37 38 ;
+2 Australia 39 40 41 42 ;
+;;
+
+id name continentrow xycoordinate
+
+{countries}
+1 Alaska 1 47 76
+2 Northwest_Territory 1 155 70
+3 Greenland 1 334 38
+4 Alberta 1 143 123
+5 Ontario 1 209 128
+6 Eastern_Canada 1 280 134
+7 Western_United_States 1 149 185
+8 Eastern_United_States 1 225 203
+9 Central_America 1 160 258
+10 Venezuela 2 235 305
+11 Peru 2 235 370
+12 Brazil 2 307 345
+13 Argentina 2 252 445
+14 Iceland 3 417 95
+15 Scandinavia 3 490 105
+16 Russia 3 585 132
+17 Great_Britain 3 410 170
+18 Northern_Europe 3 502 174
+19 Western_Europe 3 422 247
+20 Southern_Europe 3 513 231
+21 North_Africa 4 475 335
+22 Egypt 4 538 305
+23 Central_Africa 4 540 404
+24 East_Africa 4 600 375
+25 South_Africa 4 545 472
+26 Madagascar 4 630 475
+27 Ural 5 702 130
+28 Siberia 5 761 94
+29 Yakutsk 5 827 51
+30 Irkutsk 5 812 123
+31 Mongolia 5 824 182
+32 Kamchatka 5 910 50
+33 Japan 5 925 177
+34 Afghanistan 5 676 200
+35 China 5 801 239
+36 Middle_East 5 616 292
+37 India 5 731 288
+38 Southeast_Asia 5 814 310
+39 Indonesia 6 831 392
+40 New_Guinea 6 907 367
+41 Western_Australia 6 857 461
+42 Eastern_Australia 6 950 464
+;;
+
+countryId adjacentId
+
+{adjacents}
+1 2 4 32 ;
+2 1 3 4 5 ;
+3 2 5 6 14 ;
+4 1 2 5 7 ;
+5 2 3 4 6 7 8 ;
+6 3 5 8 ;
+7 4 5 8 9 ;
+8 5 6 7 9 ;
+9 7 8 10 ;
+10 9 11 12 ;
+11 10 12 13 ;
+12 10 11 13 21 ;
+13 11 12 ;
+14 3 15 17 ;
+15 14 16 17 18 ;
+16 15 18 20 27 34 36 ;
+17 14 15 18 19 ;
+18 15 16 17 19 20 ;
+19 17 18 20 21 ;
+20 16 18 19 36 ;
+21 12 19 20 22 23 24 ;
+22 20 21 36 24 ;
+23 21 24 25 ;
+24 21 22 23 25 26 36 ;
+25 23 24 26 ;
+26 24 25 ;
+27 16 28 34 35 ;
+28 27 29 30 31 35 ;
+29 28 30 33 ;
+30 28 29 31 33 ;
+31 28 30 32 33 35 ;
+32 29 30 31 33 1 ;
+33 31 32 ;
+34 16 27 35 36 37 ;
+35 27 28 31 34 37 38 ;
+36 16 20 22 24 34 37 ;
+37 34 35 36 38 ;
+38 35 37 39 ;
+39 38 40 41 ;
+40 39 41 42 ;
+41 39 40 42 ;
+42 40 41 ;
+;;
